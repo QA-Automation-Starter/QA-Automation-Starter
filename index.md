@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: QA Automation Starter
 ---
 
 # QA Automation Starter
