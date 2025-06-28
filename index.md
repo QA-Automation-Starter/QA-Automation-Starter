@@ -3,8 +3,6 @@ layout: default
 title: Welcome
 ---
 
-# QA Automation Starter
-
 Welcome to the official organization site.  
 Explore our frameworks:
 
