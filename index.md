@@ -1,9 +1,7 @@
 ---
 layout: default
-title: QA Automation Starter
+title:
 ---
-
-# QA Automation Starter
 
 Welcome to the official organization site.  
 Explore our frameworks:
