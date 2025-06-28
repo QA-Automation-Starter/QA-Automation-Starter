@@ -1,3 +1,12 @@
 title: QA Automation Starter
 description: Reusable infrastructure and tooling for QA Automation in Java, Python, and more.
 theme: minima
+
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/QA-Automation-Starter" }
+    - { platform: globe,  user_url: "https://aherscu.dev" }
+
+header_pages:
+  - index.md
+

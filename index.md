@@ -8,5 +8,5 @@ title: Welcome
 Welcome to the official organization site.  
 Explore our frameworks:
 
-- [Java Framework](https://java.qa-automation-starter.aherscu.dev)
-- [Python Framework](https://python.qa-automation-starter.aherscu.dev)
+- [QA Automation Starter for Java](https://java.qa-automation-starter.aherscu.dev)
+- [QA Automation Starter for Python](https://python.qa-automation-starter.aherscu.dev)
