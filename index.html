@@ -15,6 +15,20 @@
       padding: 2rem;
     }
 
+    .main-flex {
+      display: flex;
+      align-items: flex-start;
+      gap: 3rem;
+      margin-top: 1rem;
+    }
+
+    .thumbnail.small-left {
+      width: 400px;
+      height: auto;
+      margin: 0;
+      display: block;
+    }
+
     .project-link {
       display: flex;
       align-items: center;
@@ -26,33 +40,56 @@
       width: 48px;
       height: 48px;
     }
+
+    @media (max-width: 600px) {
+      .main-flex {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+      }
+
+      .thumbnail.small-left {
+        width: 100%;
+        max-width: 240px;
+        margin: 0 auto;
+      }
+    }
   </style>
+  <link rel="icon" type="image/png" href="qa-automation-starter-min.png" sizes="32x32" />
+  <link rel="shortcut icon" href="qa-automation-starter-min.png" type="image/png" />
+  <meta property="og:image" content="qa-automation-starter-min.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="qa-automation-starter-min.png" />
 </head>
 
 <body>
   <header>
-    <h1>QA Automation Starter</h1>
-    <p><strong>Reusable infrastructure</strong> for test automation projects in Java and Python, built with clean
-      architecture, modular design, and CI/CD in mind.</p>
+    <h1 style="margin-bottom: 1rem;">QA Automation Starter</h1>
   </header>
 
   <main>
-    <div class="project-link">
-      <a href="https://java.qa-automation-starter.aherscu.dev" target="_blank">
-        QA Automation Starter for Java
-      </a>
-    </div>
-
-    <div class="project-link">
-      <a href="https://python.qa-automation-starter.aherscu.dev" target="_blank">
-        QA Automation Starter for Python
-      </a>
+    <div class="main-flex">
+      <img src="qa-automation-starter-min.png" alt="QA Automation Starter Thumbnail" class="thumbnail small-left" />
+      <div>
+        <p><strong>Reusable infrastructure</strong> for test automation projects in Java and Python, built with clean
+          architecture, modular design, and CI/CD in mind.</p>
+        <div class="project-link">
+          <a href="https://java.qa-automation-starter.aherscu.dev">
+            QA Automation Starter for Java
+          </a>
+        </div>
+        <div class="project-link">
+          <a href="https://python.qa-automation-starter.aherscu.dev">
+            QA Automation Starter for Python
+          </a>
+        </div>
+      </div>
     </div>
   </main>
 
   <footer>
     <small>
-      Maintained by <a href="https://aherscu.dev" target="_blank">Adrian Herscu</a> &copy; 2025.
+      Maintained by <a href="https://aherscu.dev">Adrian Herscu</a> &copy; 2025.
     </small>
   </footer>
 </body>
